@@ -381,10 +381,11 @@
     left: 0px;
   }
   .timeline>li .timeline-image {
-  /*  position: static; */
+    position: static;
     width: 150px;
     height: 150px;
     margin-bottom:0px;
+     display: none;
   }
   .timeline>li:nth-child(even) .timeline-image {
     left: 0;
