@@ -86,47 +86,4 @@
 .testimonials .carousel-info span{display:block}
 .testimonials span.testimonials-name{color:#e6400c;font-size:20px;font-weight:300;margin:40px 0 7px}
 .testimonials span.testimonials-post{color:#656565;font-size:15px}
-@media (max-width: 640px) { 
-  .carousel-caption h2{font-size: 1.2em;} 
-  .carousel-caption h4{display: none;} 
-}
-footer[role="contentinfo"] ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
- }
-  /* Ticking Dial Icon */
-.tick {
-    -webkit-animation: tick steps(4) 2s infinite normal;
-    -moz-animation: tick steps(4) 2s infinite normal;
-    -o-animation: tick steps(4) 2s infinite normal;
-    animation: tick steps(4) 2s infinite normal;
-}
- 
-@-moz-keyframes tick { 100% { -moz-transform: rotate(360deg); } }
- 
-@-webkit-keyframes tick { 100% { -webkit-transform: rotate(360deg); } }
- 
-@keyframes tick { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-  
-.icon-dial:before {
-    content: "\e048";
-    font-size: 80px;
-    color:  #FF8040
-}
- 
-.icon-dial:hover:before {
-    opacity:0.5;
-}
-
-.icon-phone{
-    content: "\e004";
-    font-size: 25px;
-    color:  #FF8040
-}
-
-.icon-envelope{
-    content: "\e004";
-    font-size: 20px;
-    color:  #FF8040
-}
+@media (max-width:640px){.carousel-caption h2{font-size:1.2em}.carousel-caption h4{display:none}}footer[role=contentinfo] ul{list-style:none;padding:0;margin:0}.tick{-webkit-animation:tick steps(4) 2s infinite normal;animation:tick steps(4) 2s infinite normal}@-webkit-keyframes tick{100%{-webkit-transform:rotate(360deg)}}@keyframes tick{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.icon-dial:before{content:"\e048";font-size:60px;color:#FF8040}.icon-dial:hover:before{opacity:.5}.icon-phone{content:"\e004";font-size:22px;color:#e6400c;margin:0 10px 0 167px}.icon-envelope{content:"\e028";font-size:20px;color:#e6400c;margin:15px 10px 0 160px}p a{color:#e6400c;font-size:large}@media (max-width:640px){span.icon-envelope,span.icon-phone{display:none}p{text-align:center}}
