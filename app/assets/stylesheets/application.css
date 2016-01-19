@@ -118,3 +118,15 @@ footer[role="contentinfo"] ul {
 .icon-dial:hover:before {
     opacity:0.5;
 }
+
+.icon-phone{
+    content: "\e004";
+    font-size: 25px;
+    color:  #FF8040
+}
+
+.icon-envelope{
+    content: "\e004";
+    font-size: 20px;
+    color:  #FF8040
+}
