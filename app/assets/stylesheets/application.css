@@ -135,11 +135,6 @@ footer[role="contentinfo"] ul {
 p a{
 color:#e6400c;font-size:large
 }
-@media (max-width: 640px) {
-span.icon-phone {display: none}
-span.icon-envelope {display: none}
-p{text-align: center;}
-}
 .weixin img{
   border:1px solid #000;height:162px;width:162px;margin:0 5px 0 200px
 }
@@ -147,11 +142,17 @@ p{text-align: center;}
   text-align:center
 }
 @media (max-width:640px){
+span.icon-phone {display: none}
+span.icon-envelope {display: none}
 .weixin small{
   display:none
 } 
 .weixin img {
 margin:80px 0 10px 80px
+}
+
+p a{
+color:#e6400c;font-size:small;margin:15px 0px 0 85px
 }
 } 
 
