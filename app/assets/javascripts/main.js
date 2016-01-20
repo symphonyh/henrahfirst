@@ -19,22 +19,3 @@ $( document ).ready(function() {
 	});
 
 });
-
-
-
-var imgdefereds=[];
-$('img').each(function(){
- var dfd=$.Deferred();
- $(this).bind('load',function(){
-  dfd.resolve();
- }).bind('error',function(){
- 
- })
- if(this.complete) setTimeout(function(){
-  dfd.resolve();
- },1000);
- imgdefereds.push(dfd);
-})
-$.when.apply(null,imgdefereds).done(function(){
-    callback();
-});
