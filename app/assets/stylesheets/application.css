@@ -155,5 +155,16 @@ color:#e6400c;font-size:small;margin:15px 0px 0 85px
 }
 ul.social img{display: none}
 } 
+section#features{
+  border-bottom: 1px solid #f3f3f3;
+  margin:20px 0 30px 0
+}
+section#impact{
+  border-bottom: 1px solid #f3f3f3;
+  margin:40px 0 10px 0
+}
 
-
+ul.social{
+  border-bottom: 1px solid #f3f3f3; 
+  margin:0 0 40px 0
+}
