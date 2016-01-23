@@ -104,28 +104,23 @@ footer[role="contentinfo"] ul {
 }
  
 @-moz-keyframes tick { 100% { -moz-transform: rotate(360deg); } }
- 
 @-webkit-keyframes tick { 100% { -webkit-transform: rotate(360deg); } }
- 
 @keyframes tick { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-  
 .icon-dial:before {
     content: "\e048";
-    font-size: 60px;
+    font-size: 46px;
     color:  #FF8040
-}
+    }
  
 .icon-dial:hover:before {
     opacity:0.5;
 }
-
 .icon-phone{
     content: "\e004";
     font-size: 22px;
     color:  #e6400c;
     margin:0 10px 0 167px
 }
-
 .icon-envelope{
     content: "\e028";
     font-size: 20px;
@@ -163,8 +158,12 @@ section#impact{
   border-bottom: 1px solid #f3f3f3;
   margin:40px 0 10px 0
 }
-
 ul.social{
   border-bottom: 1px solid #f3f3f3; 
   margin:0 0 40px 0
+}
+@media (max-width:992px){
+ .weixin small{
+  display:none
+}  
 }
