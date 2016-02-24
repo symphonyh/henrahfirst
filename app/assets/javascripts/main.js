@@ -19,3 +19,9 @@ $( document ).ready(function() {
 	});
 
 });
+
+$("#btn1").click(function(e){    
+	$("#new").style.display("none");    
+	$("#t2").show();
+   e.preventDefault();
+ })
